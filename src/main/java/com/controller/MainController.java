@@ -54,9 +54,6 @@ public class MainController extends HttpServlet{
 			logout(req,resp);
 			
 		}
-//		else if(!"addCountry".equals(action) || !"addProvince".equals(action) || !"addDistrict".equals(action) || !"addUser".equals(action) || !"getDistrict".equals(action) || !"getUserByCnic".equals(action)){
-//			logout(req,resp);
-//		}
 		HttpSession session = req.getSession(false);
 
 	    if ("login".equals(action) || "forceLogin".equals(action)) {
@@ -97,21 +94,8 @@ public class MainController extends HttpServlet{
 			case "getUserByCnic":
 				searchByUserCnic(req, resp);
 				break;
-//				default:
-//					logout(req, resp);
-//					break;
-//					resp.sendRedirect(req.getContextPath()+"/index.jsp?errorMsg=Incorrect Requested Url");
 			}
 	    }	
-//	    }else if(session == null && session.getAttribute("user") == null){
-//	    	
-//	    	session.setAttribute("errorMsg", "SomeThing Went Wrong");
-//	    	resp.sendRedirect(req.getContextPath()+"/index.jsp");
-//	    }
-		
-		
-		
-		
 	}
 	
 	
@@ -321,13 +305,11 @@ public class MainController extends HttpServlet{
 		
 		Users user = au.getUserLogin(cnic, pass);
 		
-		HttpSession session = req.getSession();
-
-////	
+		HttpSession session = req.getSession();	
 		
 
 		    if (user == null) {
-		        // User not found
+		      
 		    	logger.warn("Invalid Crendentials" +cnic +"Password"+pass);
 		        session.setAttribute("errorMsg", "Invalid CNIC/Password");
 		        resp.sendRedirect(req.getContextPath() + "/index.jsp");
@@ -372,16 +354,13 @@ public class MainController extends HttpServlet{
 		    	    return;
 		    	}
 		    
-//		    	System.out.println("User upon success "+user);
 		    if (user != null) {
 		        boolean success = sd.loginUser(user, session.getId());
-//		        	System.out.println(success);
+
 		        if (success) {
 		        	runtimeSessionRegister.addSession(user.getUserId(), session.getId());
-//		        	System.out.println("Session Id: "+runtimeSessionRegister.getSession(user.getUserId()));
 		        	logger.info("User Login SuccessFully "+ user.getName()+" IP Address Is :"+ addr);
 		            session.setAttribute("user", user);
-//		            session.setMaxInactiveInterval(5*60);
 		            resp.sendRedirect(req.getContextPath() + "/pages/home.jsp");
 		        } else {
 		        	boolean loggedOut = sd.logoutUser(user.getUserId());
@@ -401,8 +380,6 @@ public class MainController extends HttpServlet{
 	public void forceLogin(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 	    String cnic = req.getParameter("cnic");
 	    String password = req.getParameter("pass");
-
-//	    System.out.println(cnic +" and from Force " +password);
 	    
 	    addUser au = new addUser(HibernateDb.getFactory());
 	    Users user = au.getUserLogin(cnic, password);
@@ -411,7 +388,7 @@ public class MainController extends HttpServlet{
 	    System.out.println("User Is returning" +user);
 
 	    if (user == null) {
-//	    	System.out.println("User Returning"+user);
+
 	        newSession.setAttribute("errorMsg", "Invalid CNIC/PASSWORD");
 	        resp.sendRedirect(req.getContextPath() + "/index.jsp");
 	        return;
