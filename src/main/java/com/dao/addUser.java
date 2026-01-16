@@ -16,20 +16,16 @@ import com.entity.Users;
 public class addUser {
 
 	private Session sess;
-//	private SessionFactory factory;
 
 	public addUser(SessionFactory factory) {
 		super();
 		this.sess = factory.openSession();
-//		this.factory=factory;
 	}
 	
 	public boolean addUser(Users u) {
 		boolean f=false;
 		try {
 			Transaction tx = sess.beginTransaction();
-//			Districts d = sess.get(Districts.class, u.getDistrict());
-//			u.setDistrict(d);
 			sess.save(u);
 			
 			tx.commit();
@@ -68,7 +64,7 @@ public class addUser {
 
 	        return users;
 	    }
-//	
+
 	 public List<Users> getUserssByCnic(String cnic) {
 	        List<Users> users = new ArrayList<>();
 
@@ -136,7 +132,7 @@ public class addUser {
 		 
 		 try {
 			 	
-//			 	Session openSession = this.factory.openSession();
+
 			 	sess.beginTransaction();
 			 	Query<Users> user = sess.createQuery("from Users where cnic=:cnic",Users.class);
 			
