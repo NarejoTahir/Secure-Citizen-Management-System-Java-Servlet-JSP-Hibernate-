@@ -1,0 +1,747 @@
+26-01-14 10:23:39 [http-nio-8080-exec-4] WARN  137ogger -SQL Error: 0, SQLState: 08S01
+26-01-14 10:23:39 [http-nio-8080-exec-4] ERROR 142ogger -The last packet successfully received from the server was 57,214,943 milliseconds ago. The last packet sent successfully to the server was 57,214,943 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+26-01-14 10:23:39 [http-nio-8080-exec-4] WARN  325ogger -Invalid Crendentials3520412345678Password12345
+26-01-14 10:25:00 [http-nio-8080-exec-10] INFO  419ogger -Login From Another BrowserAli
+26-01-14 10:35:00 [http-nio-8080-exec-8] INFO  419ogger -Login From Another BrowserAli
+26-01-14 10:35:26 [http-nio-8080-exec-1] INFO  441ogger -Logout SuccessFullAli
+26-01-14 10:47:08 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 10:47:10 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 10:47:10 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 10:47:11 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 10:47:11 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 10:47:11 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 10:47:11 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 10:47:11 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 10:47:11 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:13 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:14 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9d4e9dd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 10:47:15 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 10:47:28 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 10:47:29 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 10:47:30 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 10:47:30 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 10:47:30 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 10:47:30 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 10:47:30 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 10:47:30 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 10:47:31 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:47:34 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68893394] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 10:47:35 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 10:47:44 [http-nio-8080-exec-3] INFO  377ogger -User Login SuccessFully Ali
+26-01-14 10:49:06 [http-nio-8080-exec-9] INFO  419ogger -Login From Another BrowserAli
+26-01-14 10:49:10 [http-nio-8080-exec-3] INFO  441ogger -Logout SuccessFullAli
+26-01-14 10:52:04 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 10:52:05 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 10:52:05 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 10:52:05 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 10:52:05 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 10:52:05 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 10:52:05 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 10:52:05 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 10:52:05 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:52:07 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d9f624] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 10:52:07 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 10:52:20 [http-nio-8080-exec-3] INFO  377ogger -User Login SuccessFully Ali
+26-01-14 10:52:33 [http-nio-8080-exec-8] INFO  419ogger -Login From Another BrowserAli
+26-01-14 10:55:26 [Catalina-utility-1] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 10:55:28 [Catalina-utility-1] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 10:55:28 [Catalina-utility-1] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 10:55:29 [Catalina-utility-1] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 10:55:29 [Catalina-utility-1] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 10:55:29 [Catalina-utility-1] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 10:55:29 [Catalina-utility-1] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 10:55:29 [Catalina-utility-1] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 10:55:30 [Catalina-utility-1] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:33 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:34 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 10:55:36 [Catalina-utility-1] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17feea90] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 10:55:36 [Catalina-utility-1] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 10:55:42 [http-nio-8080-exec-9] INFO  419ogger -Login From Another BrowserAli
+26-01-14 11:11:45 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 11:11:47 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 11:11:47 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 11:11:48 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 11:11:48 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 11:11:48 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 11:11:48 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 11:11:48 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 11:11:49 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:52 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:11:54 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@328f73b0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 11:11:55 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 11:12:06 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 11:12:08 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 11:12:08 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 11:12:08 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 11:12:08 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 11:12:08 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 11:12:08 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 11:12:08 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 11:12:08 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:09 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 11:12:10 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41c7ef69] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 11:12:10 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 11:12:31 [http-nio-8080-exec-2] INFO  420ogger -Login From Another BrowserAli
+26-01-14 11:12:50 [http-nio-8080-exec-3] INFO  442ogger -Logout SuccessFullAli
+26-01-14 11:12:55 [http-nio-8080-exec-8] INFO  378ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 11:14:03 [http-nio-8080-exec-2] INFO  442ogger -Logout SuccessFullAli
+26-01-14 11:49:53 [http-nio-8080-exec-9] WARN  326ogger -Invalid Crendentials3520412345678Password1234
+26-01-14 11:49:59 [http-nio-8080-exec-5] WARN  326ogger -Invalid Crendentials3520412345678Password1234
+26-01-14 11:50:07 [http-nio-8080-exec-1] INFO  378ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 11:50:11 [http-nio-8080-exec-6] INFO  442ogger -Logout SuccessFullAli
+26-01-14 12:50:07 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 12:50:07 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 12:50:07 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 12:50:07 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 12:50:07 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 12:50:07 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 12:50:07 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 12:50:07 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 12:50:08 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 12:50:08 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:08 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 12:50:09 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3f32a68a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 12:50:09 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 13:16:02 [Catalina-utility-1] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 13:16:03 [Catalina-utility-1] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 13:16:03 [Catalina-utility-1] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 13:16:04 [Catalina-utility-1] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 13:16:04 [Catalina-utility-1] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 13:16:04 [Catalina-utility-1] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 13:16:04 [Catalina-utility-1] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 13:16:04 [Catalina-utility-1] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 13:16:04 [Catalina-utility-1] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 13:16:04 [Catalina-utility-1] INFO  97ogger -Envers integration enabled? : true
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:04 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 13:16:05 [Catalina-utility-1] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16fc4f8c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 13:16:05 [Catalina-utility-1] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 13:18:34 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 13:18:35 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 13:18:35 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 13:18:35 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 13:18:35 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 13:18:35 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 13:18:35 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 13:18:35 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 13:18:35 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 13:18:35 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 13:19:10 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 13:19:11 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 13:19:11 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 13:19:11 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 13:19:11 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 13:19:11 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 13:19:11 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 13:19:11 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 13:19:11 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 13:19:11 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 13:22:46 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 13:22:46 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 13:22:46 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 13:22:46 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 13:22:46 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 13:22:46 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 13:22:46 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 13:22:46 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 13:22:47 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 13:22:47 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:02:33 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:02:34 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:02:34 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:02:34 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:02:34 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:02:34 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:02:34 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:02:34 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:02:35 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:02:35 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:03:13 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:03:14 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:03:14 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:03:14 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:03:14 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:03:14 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:03:14 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:03:14 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:03:15 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:03:15 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:05:18 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:05:19 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:05:19 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:05:19 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:05:19 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:05:19 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:05:19 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:05:19 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:05:20 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:05:20 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:11:07 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:11:08 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:11:08 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:11:08 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:11:08 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:11:08 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:11:08 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:11:08 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:11:09 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:11:09 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:12:42 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:12:43 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:12:43 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:12:43 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:12:43 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:12:43 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:12:43 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:12:43 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:12:43 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:12:44 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:14:05 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:14:06 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:14:06 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:14:07 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:14:07 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:14:07 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:14:07 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:14:07 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:14:07 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:14:07 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:08 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:14:09 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4545ac62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 14:14:09 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 14:15:02 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:15:03 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:15:03 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:15:03 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:15:03 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:15:03 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:15:03 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:15:03 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:15:04 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:15:04 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:15:05 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e5e7f4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 14:15:06 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 14:16:11 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:16:12 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:16:12 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:16:12 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:16:12 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:16:12 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:16:12 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:16:12 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:16:13 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:16:13 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:16:15 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f0b2fe1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 14:16:15 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 14:16:29 [http-nio-8080-exec-3] INFO  378ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 14:20:36 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:20:37 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:20:37 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:20:38 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:20:38 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:20:38 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:20:38 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:20:38 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:20:38 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:20:38 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 14:20:40 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a3cb81c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 14:20:40 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 14:20:56 [http-nio-8080-exec-3] INFO  378ogger -User Login SuccessFully Ali Raza IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 14:26:57 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:26:58 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:26:58 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:26:58 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:26:58 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:26:58 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:26:58 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:26:58 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:26:58 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:26:59 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:27:43 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:27:44 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:27:44 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:27:44 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:27:44 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:27:44 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:27:44 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:27:44 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:27:44 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:27:45 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:32:37 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:32:39 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:32:39 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:32:39 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:32:39 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:32:39 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:32:39 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:32:39 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:32:40 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:32:40 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:35:08 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:35:09 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:35:09 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:35:09 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:35:09 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:35:09 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:35:09 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:35:09 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:35:10 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:35:10 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:38:19 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:38:20 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:38:20 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:38:20 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:38:20 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:38:20 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:38:20 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:38:20 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:38:21 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:38:21 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:43:16 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:43:18 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:43:18 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:43:19 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:43:19 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:43:19 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:43:19 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:43:19 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:43:19 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:43:20 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:44:34 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:44:35 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:44:35 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:44:36 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:44:36 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:44:36 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:44:36 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:44:36 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:44:36 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:44:36 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 14:49:55 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 14:49:56 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 14:49:56 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 14:49:56 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 14:49:56 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 14:49:56 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 14:49:56 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 14:49:56 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 14:49:56 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 14:49:56 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 15:01:08 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 15:01:11 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 15:01:11 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 15:01:11 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 15:01:11 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 15:01:11 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 15:01:11 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 15:01:11 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 15:01:12 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 15:01:12 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 15:03:02 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 15:03:03 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 15:03:03 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 15:03:03 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 15:03:04 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 15:03:04 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 15:03:04 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 15:03:04 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 15:03:04 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 15:03:04 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:06 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:03:07 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@35f79e6d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 15:03:07 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 15:03:28 [http-nio-8080-exec-4] INFO  420ogger -Login From Another BrowserAli
+26-01-14 15:57:31 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 15:57:33 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 15:57:33 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 15:57:34 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 15:57:34 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 15:57:34 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 15:57:34 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 15:57:34 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 15:57:34 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 15:57:34 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:37 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 15:57:38 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2862db3a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 15:57:38 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:06:41 [Catalina-utility-1] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 16:06:43 [Catalina-utility-1] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 16:06:43 [Catalina-utility-1] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 16:06:43 [Catalina-utility-1] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 16:06:43 [Catalina-utility-1] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 16:06:43 [Catalina-utility-1] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 16:06:43 [Catalina-utility-1] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 16:06:43 [Catalina-utility-1] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 16:06:44 [Catalina-utility-1] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 16:06:44 [Catalina-utility-1] INFO  97ogger -Envers integration enabled? : true
+26-01-14 16:06:46 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:46 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:47 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:47 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:47 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:47 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:47 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:06:48 [Catalina-utility-1] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74b3cbe0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 16:06:49 [Catalina-utility-1] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:22:20 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 16:22:22 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 16:22:22 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 16:22:22 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 16:22:22 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 16:22:22 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 16:22:22 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 16:22:22 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 16:22:23 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 16:22:23 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 16:22:25 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:25 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:26 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:26 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:26 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:26 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:26 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:22:27 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3c5be5a8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 16:22:28 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:34:41 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 16:34:42 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 16:34:43 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 16:34:43 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 16:34:43 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 16:34:43 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 16:34:43 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 16:34:43 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 16:34:43 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 16:34:43 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:34:46 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10164e94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 16:34:46 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:35:01 [http-nio-8080-exec-3] INFO  425ogger -Login From Another BrowserAli
+26-01-14 16:46:43 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 16:46:45 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 16:46:45 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 16:46:45 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 16:46:45 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 16:46:45 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 16:46:45 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 16:46:45 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 16:46:46 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 16:46:46 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:47 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:46:48 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b43384e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 16:46:48 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:50:15 [http-nio-8080-exec-6] INFO  425ogger -Login From Another BrowserAli
+26-01-14 16:56:31 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 16:56:32 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 16:56:32 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 16:56:32 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 16:56:32 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 16:56:32 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 16:56:32 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 16:56:32 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 16:56:32 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 16:56:32 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:33 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 16:56:34 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@473048f9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 16:56:34 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 16:57:00 [http-nio-8080-exec-8] INFO  425ogger -Login From Another BrowserAli
+26-01-14 17:16:25 [http-nio-8080-exec-1] INFO  447ogger -Logout SuccessFullAli
+26-01-14 17:16:29 [http-nio-8080-exec-7] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 17:23:43 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:23:44 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:23:44 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:23:44 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:23:44 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:23:44 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:23:44 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:23:44 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:23:44 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:23:45 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:23:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:45 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:23:46 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@473048f9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:23:46 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:24:19 [Catalina-utility-1] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:24:20 [Catalina-utility-1] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:24:20 [Catalina-utility-1] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:24:20 [Catalina-utility-1] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:24:20 [Catalina-utility-1] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:24:20 [Catalina-utility-1] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:24:20 [Catalina-utility-1] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:24:20 [Catalina-utility-1] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:24:20 [Catalina-utility-1] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:24:20 [Catalina-utility-1] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:24:21 [Catalina-utility-1] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37f06dc1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:24:21 [Catalina-utility-1] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:28:13 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:28:13 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:28:13 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:28:13 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:28:13 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:28:13 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:28:13 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:28:13 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:28:14 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:28:14 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:28:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:14 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:28:15 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@473048f9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:28:15 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:28:23 [http-nio-8080-exec-5] INFO  425ogger -Login From Another BrowserAli
+26-01-14 17:31:32 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:31:33 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:31:33 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:31:33 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:31:33 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:31:33 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:31:33 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:31:33 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:31:34 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:31:34 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:34 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:31:35 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@652d8455] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:31:35 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:32:06 [http-nio-8080-exec-4] INFO  425ogger -Login From Another BrowserAli
+26-01-14 17:36:18 [Catalina-utility-2] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:36:19 [Catalina-utility-2] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:36:19 [Catalina-utility-2] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:36:19 [Catalina-utility-2] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:36:19 [Catalina-utility-2] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:36:19 [Catalina-utility-2] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:36:19 [Catalina-utility-2] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:36:19 [Catalina-utility-2] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:36:19 [Catalina-utility-2] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:36:19 [Catalina-utility-2] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:20 [Catalina-utility-2] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@677ff96e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:36:21 [Catalina-utility-2] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:36:24 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:36:24 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:36:24 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:36:25 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:36:25 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:36:25 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:36:25 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:36:25 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:36:25 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:36:25 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:36:26 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e711e84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:36:26 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:45:58 [http-nio-8080-exec-4] INFO  383ogger -User Login SuccessFully Umair IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 17:51:17 [http-nio-8080-exec-9] INFO  447ogger -Logout SuccessFullUmair
+26-01-14 17:51:22 [http-nio-8080-exec-6] INFO  425ogger -Login From Another BrowserAli
+26-01-14 17:53:25 [http-nio-8080-exec-9] INFO  447ogger -Logout SuccessFullAli
+26-01-14 17:53:36 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:53:37 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:53:37 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:53:37 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:53:37 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:53:37 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:53:37 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:53:37 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:53:37 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:53:38 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:53:38 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:38 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:53:39 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@745d399a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:53:39 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:54:08 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 17:54:08 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 17:54:08 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 17:54:09 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 17:54:09 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 17:54:09 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 17:54:09 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 17:54:09 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 17:54:09 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 17:54:09 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 17:54:10 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@745d399a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 17:54:10 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 17:54:47 [http-nio-8080-exec-5] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 17:56:27 [http-nio-8080-exec-4] INFO  447ogger -Logout SuccessFullAli
+26-01-14 17:56:44 [http-nio-8080-exec-3] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 18:00:53 [http-nio-8080-exec-4] INFO  447ogger -Logout SuccessFullAli
+26-01-14 18:01:15 [http-nio-8080-exec-6] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 18:01:35 [http-nio-8080-exec-4] WARN  331ogger -Invalid Crendentials3520412345678Password12345343434
+26-01-14 18:01:56 [http-nio-8080-exec-7] WARN  331ogger -Invalid Crendentials3520412345678Password123456
+26-01-14 18:02:55 [http-nio-8080-exec-5] INFO  447ogger -Logout SuccessFullAli
+26-01-14 18:03:04 [http-nio-8080-exec-8] INFO  425ogger -Login From Another BrowserAli
+26-01-14 18:03:11 [http-nio-8080-exec-2] INFO  447ogger -Logout SuccessFullAli
+26-01-14 18:03:30 [http-nio-8080-exec-7] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 18:04:43 [http-nio-8080-exec-9] INFO  425ogger -Login From Another BrowserAli
+26-01-14 18:10:08 [http-nio-8080-exec-6] INFO  447ogger -Logout SuccessFullAli
+26-01-14 18:10:22 [http-nio-8080-exec-6] INFO  383ogger -User Login SuccessFully Ali IP Address Is :0:0:0:0:0:0:0:1
+26-01-14 18:10:54 [main] INFO  44ogger -HHH000412: Hibernate ORM core version 5.4.33
+26-01-14 18:10:55 [main] WARN  60ogger -HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+26-01-14 18:10:55 [main] INFO  56ogger -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-01-14 18:10:56 [main] WARN  72ogger -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26-01-14 18:10:56 [main] INFO  115ogger -HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/nadra_system]
+26-01-14 18:10:56 [main] INFO  124ogger -HHH10001001: Connection properties: {password=****, user=root}
+26-01-14 18:10:56 [main] INFO  129ogger -HHH10001003: Autocommit mode: false
+26-01-14 18:10:56 [main] INFO  259ogger -HHH000115: Hibernate connection pool size: 20 (min=1)
+26-01-14 18:10:56 [main] INFO  175ogger -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+26-01-14 18:10:56 [main] INFO  97ogger -Envers integration enabled? : true
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Provinces] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Users] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.LoggedIn] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Countries] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:58 [main] WARN  155ogger -HHH90001006: Missing cache[hibernate.cache.com.entity.Districts] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+26-01-14 18:10:59 [main] INFO  47ogger -HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@69f01f4b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+26-01-14 18:10:59 [main] INFO  52ogger -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-01-14 18:17:27 [http-nio-8080-exec-4] INFO  425ogger -Login From Another BrowserAli
+26-01-14 18:17:35 [http-nio-8080-exec-5] INFO  425ogger -Login From Another BrowserAli
+26-01-14 18:17:45 [http-nio-8080-exec-10] INFO  447ogger -Logout SuccessFullAli
